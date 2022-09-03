@@ -7,3 +7,13 @@ sudo touch /etc/ssh/login_notify.sh
 sudo chmod +x /etc/ssh/login_notify.sh
 
 sudo nano /etc/ssh/login_notify.sh
+
+selanjutnya
+
+sudo nano /etc/pam.d/sshd
+
+
+tambakna 
+
+# Login Telegram Notification
+session optional pam_exec.so /etc/ssh/login_notify.sh
