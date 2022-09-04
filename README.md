@@ -13,9 +13,11 @@ selanjutnya
 sudo nano /etc/pam.d/sshd
 
 
-tambakna 
+tambahkan di paling bawah
 
-# Login Telegram Notification
+#Login Telegram Notification
 session optional pam_exec.so /etc/ssh/login_notify.sh
+
+
 
 ![image](https://github.com/agungsoboru/ssh-login-alert/blob/main/Screenshot%20(73).png)
