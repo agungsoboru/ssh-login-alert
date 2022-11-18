@@ -12,6 +12,7 @@ selanjutnya
 
 sudo nano /etc/pam.d/sshd
 
+ketik di terminal
 PAM_TYPE="open_session" /etc/ssh/login_notify.sh
 
 tambahkan di paling bawah
