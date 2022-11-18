@@ -11,6 +11,7 @@ sudo nano /etc/ssh/login_notify.sh
 selanjutnya
 
 sudo nano /etc/pam.d/sshd
+tambahkan yang ada tulisan #Login Telegram Notification seperti gambar
 
 ketik di terminal
 PAM_TYPE="open_session" /etc/ssh/login_notify.sh
